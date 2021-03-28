@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MetasequoiaDocument>
+    <IncludedBy>test.mqo</IncludedBy>
+    <Plugin.56A31D20.71F282AB name="ボーン">
+        <BoneSet2 normalize="1" skinning="0" config="std">
+            <Bone id="6" name="bone6" pos="-100,0,0" color="57a6fa" upVector="1,0,0" scale="1,1.00499904,1">
+                <W obj="1">
+                    <V v="1" w="100"/>
+                    <V v="3" w="100"/>
+                </W>
+            </Bone>
+            <Bone id="1" name="bone1" parent="6" pos="100,0,0" color="306da7" rotate="0,0,45" scale="1,1.00499856,1">
+                <W obj="1">
+                    <V v="2" w="100"/>
+                    <V v="4" w="100"/>
+                </W>
+            </Bone>
+            <Bone id="2" name="bone2" parent="1" pos="300,0,0" color="b98421" rotate="0,0,45">
+                <W obj="1">
+                    <V v="5" w="100"/>
+                    <V v="7" w="100"/>
+                </W>
+            </Bone>
+            <Bone id="3" name="bone3" parent="2" pos="500,0,0" color="499f1c" rotate="0,0,45">
+                <W obj="1">
+                    <V v="6" w="100"/>
+                    <V v="8" w="100"/>
+                </W>
+            </Bone>
+            <Bone id="4" name="bone4" parent="3" pos="700,0,0" color="9ca728" rotate="0,0,45">
+                <W obj="1">
+                    <V v="9" w="100"/>
+                    <V v="11" w="100"/>
+                </W>
+            </Bone>
+            <Bone id="5" name="bone5" parent="4" pos="900,0,0" color="faac43" rotate="0,-0,61.1713448">
+                <W obj="1">
+                    <V v="10" w="100"/>
+                    <V v="12" w="100"/>
+                </W>
+            </Bone>
+            <Bone id="8" name="bone8" pos="-100,-0.000289916992,-400" color="f96f6a" maxAngle="0,180,0" minAngle="0,-180,0">
+                <W obj="1">
+                    <V v="13" w="100"/>
+                    <V v="15" w="100"/>
+                </W>
+            </Bone>
+            <Bone id="9" name="bone9" parent="8" pos="-146.820007,128.550003,-400" color="6859bb" maxAngle="0,180,0" minAngle="0,-180,0">
+                <IK chain="1"/>
+                <W obj="1">
+                    <V v="17" w="100"/>
+                    <V v="19" w="100"/>
+                </W>
+            </Bone>
+            <Bone id="10" name="bone10" parent="9" pos="0,251.679993,-400" color="1f4398">
+                <IK chain="2"/>
+                <W obj="1">
+                    <V v="22" w="100"/>
+                    <V v="24" w="100"/>
+                </W>
+            </Bone>
+            <Bone id="11" name="bone11" pos="100,0.000717163086,-400" color="a906c9">
+                <W obj="1">
+                    <V v="14" w="100"/>
+                    <V v="16" w="100"/>
+                </W>
+            </Bone>
+            <Bone id="12" name="bone12" parent="11" pos="146.820007,128.550003,-400" color="891f61" upVector="90,0,0">
+                <W obj="1">
+                    <V v="18" w="100"/>
+                    <V v="20" w="100"/>
+                </W>
+            </Bone>
+            <Bone id="13" name="bone13" parent="12" pos="0,251.679993,-400" color="2890ea">
+                <IK chain="2"/>
+            </Bone>
+        </BoneSet2>
+        <Obj id="1"/>
+    </Plugin.56A31D20.71F282AB>
+</MetasequoiaDocument>
